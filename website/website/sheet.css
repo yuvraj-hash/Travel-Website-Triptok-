@@ -1,0 +1,84 @@
+body{
+  background: rgb(72,0,72);
+background: -moz-linear-gradient(0deg, rgba(72,0,72,1) 0%, rgba(192,72,72,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(72,0,72,1) 0%, rgba(192,72,72,1) 100%);
+background: linear-gradient(0deg, rgba(72,0,72,1) 0%, rgba(192,72,72,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#480048",endColorstr="#c04848",GradientType=1);
+  justify-content: center;
+  height: 100%;/*was 80 to get square-ish bg on mobile view*/
+  padding-bottom: auto;
+  margin-bottom: 0;
+}
+.quote{
+  margin-top: 2.5rem;
+  margin-bottom: 4rem;
+  border-radius: 15px;
+  border: 2px solid white;
+  color: white;
+  display: inline-block;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+blockquote{
+  font-size: calc(1rem + 2vmax);
+  color: white;
+  margin: -1.5rem 1.5rem;
+}
+small{
+  color: beige;
+}
+small:before{
+  content: '\2014 ';
+}
+footer{
+  text-align: center;
+}
+.qmark{
+  font-size: 2rem;
+  line-height: 3.2rem;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  z-index: 20;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: grey;
+  text-align: center;
+  display: inline-block;
+}
+.qleft{
+  top: -1.2rem;
+  left: -1.3rem;
+}
+.qright{
+  right: -1.3rem;
+  top: 1.1rem;
+  float: right;
+}
+.q-img{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: none;
+  display: inline-block;
+  background: url('https://www.biography.com/.image/c_fill,cs_srgb,g_face,h_300,q_80,w_300/MTQ3NjM5NTA5NjU4Mzc5NjUy/maya_angelou_photo_by_deborah_feingold_corbis_entertainment_getty_533084708.jpg');
+  background-size: cover;
+  background-position: center;
+  vertical-align: middle;
+}
+.fx{
+  display: inline-block;
+  position: absolute;
+  float: right;
+  background: url('http://static.tumblr.com/jdmh5yh/BcAm58mvl/blue_butterfly.png');
+  background-size: cover;
+  background-position: center bottom;
+  border-radius: 50%;
+  /*border: 1px solid;*/
+  width: 4rem;
+  height: 4rem;                                                                                           
+  top: 1.35rem;
+  right: 1.5em;
+  transform: rotate(30deg);
+  z-index: 21;
+}
